@@ -5,7 +5,7 @@
 
 ### 典型应用
 
-支付宝&腾讯新闻
+支付宝&腾讯新闻（每次虽然国内跟进的晚，但是阿里腾讯也算是最早跟进的一批了）
 
 ![支付宝](screenshots/image3.jpg)
 ![腾讯新闻](screenshots/image4.jpg)
@@ -170,4 +170,4 @@ Log.e("count",count.toString())
 
 静态使用 长按后显示的是**android:shortcutLongLabel**的值，如果不设置**android:shortcutLongLabel**则显示**android:shortcutShortLabel**
 
-动态使用 长按后显示的是** ShortcutInfo.setShortLabel() **的值
+动态使用 长按后显示的是**ShortcutInfo.setShortLabel()**的值
