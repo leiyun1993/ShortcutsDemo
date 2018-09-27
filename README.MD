@@ -5,10 +5,8 @@
 
 ### 典型应用
 
-支付宝
+支付宝&腾讯新闻
 ![支付宝](screenshots/image3.jpg)
-
-腾讯新闻
 ![腾讯新闻](screenshots/image4.jpg)
 
 ### 使用方式
@@ -33,7 +31,7 @@
 </activity>
 ```
 
-然后在**res/xml/**目录下创建**shortcuts.xml**文件, 里面包含静态的shortcuts:
+然后在**res/xml/** 目录下创建 **shortcuts.xml**文件, 里面包含静态的shortcuts:
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
@@ -151,6 +149,7 @@ private fun addShortcutWithIntents(): ShortcutInfo? {
 ```
 
 动态添加
+
 ![动态添加](screenshots/image2.jpg)
 
 ### shortcut数量
@@ -170,4 +169,4 @@ Log.e("count",count.toString())
 
 静态使用 长按后显示的是**android:shortcutLongLabel**的值，如果不设置**android:shortcutLongLabel**则显示**android:shortcutShortLabel**
 
-动态使用 长按后显示的是**ShortcutInfo.setShortLabel()**的值
+动态使用 长按后显示的是** ShortcutInfo.setShortLabel() **的值
