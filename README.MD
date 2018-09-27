@@ -6,6 +6,7 @@
 ### 典型应用
 
 支付宝&腾讯新闻
+
 ![支付宝](screenshots/image3.jpg)
 ![腾讯新闻](screenshots/image4.jpg)
 
