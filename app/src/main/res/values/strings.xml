@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ShortcutsDemo</string>
+    <string name="static_short_label_1">静态快捷1</string>
+    <string name="static_long_label_1">静态快捷1L</string>
+    <string name="static_short_label_2">静态快捷2</string>
+    <string name="static_long_label_2">静态快捷2L</string>
+    <string name="static_message">static shortcut disabled message</string>
+</resources>
