@@ -170,4 +170,4 @@ Log.e("count",count.toString())
 
 静态使用 长按后显示的是**android:shortcutLongLabel**的值，如果不设置**android:shortcutLongLabel**则显示**android:shortcutShortLabel**
 
-动态使用 长按后显示的是**ShortcutInfo.setShortLabel()**的值
+动态使用 长按后显示的是**setShortLabel**的值
